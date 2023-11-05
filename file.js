@@ -2,7 +2,7 @@ const MongoClient = require('mongodb').MongoClient;
 const axios = require('axios');
 
 // MongoDB connection settings
-const mongodbUri = 'mongodb+srv://sarasiddiquie1:pSnEJiboO6DosWf9@warmup.qedk4px.mongodb.net/Employee';
+const mongodbUri = 'URL';
 const collectionName = 'Managers';
 
 // Webhook.site endpoint
