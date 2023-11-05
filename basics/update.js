@@ -1,3 +1,6 @@
+// database name --> employee
+// collection name --> inventory
+
 db.inventory.updateOne(
     { item: "paper" },
     {

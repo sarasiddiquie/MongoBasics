@@ -1,6 +1,7 @@
+// database name --> employee
+// collection name --> inventory
 
 db.inventory.insertOne({ item:"Sugar", qty: 100, tags:["food"]})
-
 db.inventory.insertMany([
     { item:"Sugar", qty: 100, tags:["food"]},
     { item:"Cotton", qty: 100, tags:["material"]},
